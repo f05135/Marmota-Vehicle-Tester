@@ -154,6 +154,15 @@ wt_customer/
 
 ---
 
+## Support the Project
+
+**Marmota Vehicle Tester** is 100% free and open-source. If it saves you time or helps you test vehicles and loadouts in War Thunder, consider supporting ongoing development:
+
+- **GitHub Sponsors**: Click the **Sponsor** button at the top of this repository or visit [github.com/sponsors/f05135](https://github.com/sponsors/f05135).
+- **Star & Share**: Starring the repository helps other War Thunder players discover the tool.
+
+---
+
 ## Legal Notice & License
 
 - **License**: Distributed under the **GNU General Public License v3.0 (GPLv3)**. See [LICENSE](LICENSE) for full terms.

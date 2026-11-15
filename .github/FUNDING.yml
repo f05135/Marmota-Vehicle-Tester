@@ -1,0 +1,10 @@
+# GitHub Sponsors configuration
+# Enable GitHub Sponsors at https://github.com/sponsors/accounts for the "Sponsor" button to go live.
+# You can also uncomment any additional platforms below and add your username/URL.
+
+github: [f05135]
+# patreon:
+# ko_fi:
+# buy_me_a_coffee:
+# open_collective:
+# custom: ["https://your-donation-link.example"]
