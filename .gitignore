@@ -1,0 +1,19 @@
+# Rust build artifacts & caches
+target/
+
+# Local development runtime data
+assets/
+logs/
+webview2/
+config.json
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.tmp.*
+*.bak
+.vscode/
+.idea/
+.env
+.env.*

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleDisplayName</key>
+  <string>Marmota Vehicle Tester</string>
+  <key>CFBundleExecutable</key>
+  <string>marmota_vehicle_tester</string>
+  <key>CFBundleIconFile</key>
+  <string>AppIcon.icns</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.marmota.vehicletester</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>Marmota Vehicle Tester</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>2.0.0</string>
+  <key>CFBundleVersion</key>
+  <string>2.0.0</string>
+  <key>LSApplicationCategoryType</key>
+  <string>public.app-category.utilities</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>11.0</string>
+  <key>LSMultipleInstancesProhibited</key>
+  <true/>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSSupportsAutomaticGraphicsSwitching</key>
+  <true/>
+
+  <!-- macOS App Transport Security: allow localhost loopback WebView/server HTTP while enforcing HTTPS externally -->
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsLocalNetworking</key>
+    <true/>
+    <key>NSAllowsArbitraryLoads</key>
+    <false/>
+  </dict>
+
+  <!-- macOS TCC Privacy Usage Descriptions for War Thunder folder access & exports -->
+  <key>NSDesktopFolderUsageDescription</key>
+  <string>Marmota Vehicle Tester needs folder access when your War Thunder installation or missions are stored on the Desktop.</string>
+  <key>NSDocumentsFolderUsageDescription</key>
+  <string>Marmota Vehicle Tester needs folder access when your War Thunder installation or diagnostic exports are stored in Documents.</string>
+  <key>NSDownloadsFolderUsageDescription</key>
+  <string>Marmota Vehicle Tester needs Downloads access to read optional offline catalog bundles you download.</string>
+  <key>NSRemovableVolumesUsageDescription</key>
+  <string>Marmota Vehicle Tester needs access to external drives when War Thunder is installed on a secondary or external SSD.</string>
+  <key>NSNetworkVolumesUsageDescription</key>
+  <string>Marmota Vehicle Tester needs access to network volumes if your War Thunder library resides on a mounted drive.</string>
+  <key>NSLocalNetworkUsageDescription</key>
+  <string>Marmota Vehicle Tester uses a private local loopback server to render its interface and communicate with War Thunder.</string>
+</dict>
+</plist>
