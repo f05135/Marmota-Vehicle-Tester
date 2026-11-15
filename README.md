@@ -64,9 +64,23 @@ Click **Launch Game** (or open War Thunder normally), navigate to **Battles → 
 2. Because the bundle is ad-hoc signed without an Apple Developer notarization certificate, macOS Gatekeeper may display an *"unidentified developer"* warning on first launch. To open it:
    - **Option A (GUI)**: Right-click (or `Control`-click) `Marmota Vehicle Tester.app` → **Open** → click **Open** in the confirmation dialog.
    - **Option B (Terminal)**: Clear the quarantine attribute:
-     ```zsh
-     xattr -dr com.apple.quarantine "/Applications/Marmota Vehicle Tester.app"
-     ```
+      ```zsh
+      xattr -dr com.apple.quarantine "/Applications/Marmota Vehicle Tester.app"
+      ```
+
+### Security & VirusTotal Verification
+
+`MarmotaVehicleTester.exe` (v2.0.0) has been scanned on VirusTotal with **0 / 70 security vendor detections**:
+
+- **SHA-256 (`MarmotaVehicleTester.exe`)**: `7d8655404cb1863a0ff41e2651c2c6b0e5b35c6650948635ee73a823aa1376cd`
+- **VirusTotal Report**: [View 0/70 Clean Scan on VirusTotal](https://www.virustotal.com/gui/file/7d8655404cb1863a0ff41e2651c2c6b0e5b35c6650948635ee73a823aa1376cd)
+
+![MarmotaVehicleTester.exe VirusTotal 0/70 Clean Scan](media/004.png)
+
+> **Verify It Yourself:** We strongly encourage every user to independently verify any executable before running it:
+> 1. Check the local SHA-256 hash on Windows (`certutil -hashfile MarmotaVehicleTester.exe SHA256`) and compare it against the hash above.
+> 2. Upload or look up the file on [VirusTotal](https://www.virustotal.com/) to run your own scan.
+> 3. Prefer full source-level transparency? Follow [Building from Source](#building-from-source) to compile the binary yourself directly from this repository.
 
 ---
 
